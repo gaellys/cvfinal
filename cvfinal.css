@@ -8,6 +8,13 @@
 }
 /*Partie de gauche*/
 
+
+ul {
+    list-style:none;
+    padding-left:6;
+    }
+
+
 #left{
 
     width: 25%;
@@ -32,23 +39,44 @@
     width: 300px ;
     height: auto ;
 }
+
 .contact{
     width: 100%;
-    height: 25%;
+    height: 14%;
     background-color: #1E90FF;
     border: 1px solid red;
     order: 2;
 }
 
+.CONTACT{
+      
+      text-align: center;
+      margin-top: 0%;
+      width:100%;
+      background-color: white;
+    }
+
 
 .a_propos_de_moi{
+    text-align: justify;
     width: 100%;
-    height: 25%;
+    height: 200%;
     background-color: #1E90FF;
     border: 1px solid #000;
     order: 3;
 }
 
+.Lorem{
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.aProposDeMoi{
+    
+    text-align: center;
+    margin-top: 0%;
+    width:100%;
+    background-color: white;
+  }
 
 .loisirs{
     width: 15%;
@@ -57,6 +85,14 @@
     border: 1px solid red;
     order: 4;
 }
+
+.LOISIRS{
+    
+    text-align: center;
+    margin-top: 0%;
+    width:100%;
+    background-color: white;
+  }
 
 /*Partie de droite*/
 
@@ -74,7 +110,9 @@
 
 h1
 {
+padding-left: 80px;
+padding-top: 80px;
 color:#1E90FF;
-font-size: 120px;
+font-size: 100px;
 font-family: 'intro', Arial;
 }
