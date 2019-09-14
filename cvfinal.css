@@ -9,7 +9,8 @@
 ul {
     width: 100%;
     list-style:none;
-    padding-left:6;
+    padding-left: 4%;
+
     }
 
 .col-md-3, .col-md-9{
@@ -21,6 +22,14 @@ ul {
     display: flex;
 }
 
+.name{
+    color: #1E90FF;
+}
+
+#etudiante{
+    
+    border-bottom: 1px solid  #1E90FF;
+}
 #left{
     width:100%;
     background-color:#1E90FF;
@@ -42,7 +51,7 @@ ul {
 
     border-radius: 50%;
     border: 3px blue groove;
-    width: 100px ;
+    width: 200px ;
     height: auto ;
 }
 
@@ -106,9 +115,14 @@ ul {
 #right{
 }
 
+header p{
+    margin-left: 4%;
+}
+
 .fas{
     padding-right: 4%;
     padding-left: 4%;
+    color:#1E90FF;
 }
 .name{
     width: 100%;
@@ -126,7 +140,7 @@ font-size: 50px;
 font-family: 'intro', Arial;
 }
 
-h2
+/*h2
 {
     text-decoration: underline;
-}
+}*/
