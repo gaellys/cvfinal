@@ -5,12 +5,16 @@
 }
 /*Partie de gauche*/
 
+hr{
+    height:1px;
+    width:92%;
+    border-top: 1px solid #1E90FF;
+}
 
 ul {
     width: 100%;
     list-style:none;
     
-
     }
 
 .col-md-3, .col-md-9{
@@ -48,7 +52,7 @@ ul {
 }
 
 .photo img{
-
+    margin-top: 15%;
     border-radius: 50%;
     border: 3px blue groove;
     width: 200px ;
@@ -96,33 +100,28 @@ ul {
   }
 
 .loisirs{
-    width:100%;
+    text-align: justify;
+    width: 100%;
     background-color: #1E90FF;
-    
-    
+      
 }
 
-.LOISIRS{
-    width: 100%;
-    
+.loisirs h2{
     text-align: center;
-    margin-top: 0%;
-
+    width:100%;
     background-color: white;
   }
 
 /*Partie de droite*/
 
-#right{
-}
 
 header p{
     margin-left: 4%;
 }
 
-.fas{
-    padding-right: 4%;
-    padding-left: 4%;
+.fas, .far{
+    margin-right: 4%;
+    margin-left: 4%;
     color:#1E90FF;
 }
 .name{
@@ -141,7 +140,39 @@ font-size: 50px;
 font-family: 'intro', Arial;
 }
 
-/*h2
-{
-    text-decoration: underline;
-}*/
+h2{
+    margin-top: 60px;
+}
+
+.experience_pro{
+    display:flex;
+    width: 100%;
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+
+
+}
+.annee{
+    width: 10%;
+    margin-right: 80px;
+}
+
+.annee i{
+    margin-right:20px;
+}
+.descritpion{
+    width:90%;
+    
+}
+
+.recommandations{
+    display: flex;
+    margin-top: 4%;
+}
+
+.recommandation1{
+    padding-left: 4%;
+    margin-right: 20%;
+}
+
