@@ -81,15 +81,17 @@ ul {
     text-align: justify;
     width: 100%;
     background-color: #1E90FF;
-   
+    
     
 }
 
 .Lorem{
 
-    
+    margin-top: 7%;
     margin-left: 12%;
     margin-right: 10%;
+    padding-bottom: 143%;
+   
 }
 .a_propos_de_moi h2{
     
@@ -100,7 +102,7 @@ ul {
   }
 
 .loisirs{
-    text-align: justify;
+    
     width: 100%;
     background-color: #1E90FF;
       
@@ -111,6 +113,13 @@ ul {
     width:100%;
     background-color: white;
   }
+
+
+.fa-futbol{
+    margin-top: 4%;
+    color:white;
+}
+
 
 /*Partie de droite*/
 
@@ -169,10 +178,17 @@ h2{
 .recommandations{
     display: flex;
     margin-top: 4%;
+   
 }
 
 .recommandation1{
     padding-left: 4%;
     margin-right: 20%;
+    padding-bottom: 10%;
 }
 
+.recommandation2{
+    padding-left: 4%;
+    margin-right: 20%;
+    padding-bottom: 10%;
+}
