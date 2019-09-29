@@ -183,12 +183,13 @@ h2{
 .recommandations{
     display: flex;
     margin-top: 4%;
-   
+    margin-bottom: 3%;
 }
 
 .recommandation1{
     padding-left: 4%;
     margin-right: 20%;
+    
     
 }
 
@@ -196,4 +197,63 @@ h2{
     padding-left: 4%;
     margin-right: 20%;
     
+}
+
+@media screen and (min-width:360px) and (max-width:640px)
+{
+    .photo img{
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        border-radius: 50%;
+        border: 3px blue groove;
+        width: 150px ;
+        height: auto ;
+    }
+    h1{
+        
+        text-align: center;
+    }
+
+    .poste{
+        text-align: center;
+    }
+
+    .a_propos_de_moi{
+        
+        
+        text-align: justify;
+        width: 100%;
+        background-color: #1E90FF;
+        
+        
+        
+    }
+
+    .fa-graduation-cap{
+        width: 100%;
+    }
+
+    h2{
+        
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 60px;
+        
+        
+    }
+    .loisirs{
+    
+   
+        position:relative;
+       
+    }
+    .experience_pro{
+        flex-direction:column;
+    }
+
+    .annee{
+        text-align: center;
+    }
 }
