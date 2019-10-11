@@ -1,6 +1,8 @@
 #conteneur
 {
     width: 100%;
+    overflow:hidden;
+    
     
 }
 /*Partie de gauche*/
@@ -20,6 +22,8 @@ ul {
 .col-md-3, .col-md-9{
     padding-right: 0px;
     padding-left: 0px;
+    width: 100%;
+    
 }
 
 .col-md-3{
@@ -159,7 +163,7 @@ h2{
 
 .experience_pro{
     display:flex;
-    width: 100%;
+    
     padding-left: 40px;
     margin-top: 40px;
     margin-right: 40px;
@@ -167,15 +171,18 @@ h2{
 
 }
 .annee{
-    width: 10%;
+    display:flex;
+    
     margin-right: 80px;
 }
 
 .annee i{
+    display:flex;
     margin-right:20px;
 }
 .descritpion{
-    width:90%;
+    display:flex;
+
     
 }
 
@@ -199,6 +206,7 @@ h2{
 }
 
 @media all and (max-width:768px)
+
 
 {
     .photo img{
